@@ -1,0 +1,5 @@
+- Python is as easy-to-learn language
+- Requires less code and time to implement a new feature
+- We normally don't focus on language-specific features
+- PyPI consists of 6000+ libraries
+- The book focuses on standard library packages
