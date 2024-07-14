@@ -1,16 +1,19 @@
 # The Python Data Model
 
 ## Overview
+
 - It's intriguing that we use `len(collection)` instead of `collection.len()` in Python.
 - Some things are just Pythonic. We need to understand the Python data model, which includes the common APIs to make use of idiomatic features.
 - We can think of Python as a framework including sequences, functions, iterators, coroutines, classes, context managers, and so on.
 - Python also has special methods, whose names are formatted with leading and trailing double underscores.
 
 ## Key Points
+
 - `collections.namedtuple` is used to create tuples with each position named to a particular field.
 - `sorted(iterable, key, reverse)`, where `key` is a function that takes an `item` as an argument and returns a value used for sorting order, and `reverse` is a `bool` value defaulting to `False`, used to specify whether the order should be ascending or descending.
 
 ## Special Methods
+
 - `__len__()` for determining length.
 - `__getitem__()` for item access using `obj[index]` syntax. Also supports slicing, iteration, inclusion, reversing, sorting, etc.
 - We shouldn't call the special methods explicitly; let Python do it itself. Neither should we define any custom method using the `__*__()` format, as it might clash with any of the existing special methods.
@@ -23,6 +26,7 @@
 - In `__repr__()` we should use `!r` in `f-strings` as a good practice to show values in standard representations.
 
 ## Collection API
+
 - ABCs stand for "Abstract Base Classes" - must be implemented in a concrete subclass. The same goes for abstract methods.
 - These ABCs are defined in the `collections.abc` library. Some of them are:
   - `Iterable` for unpacking and iteration.
