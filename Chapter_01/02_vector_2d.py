@@ -15,6 +15,12 @@ class Vector2:
     """A 2D vector class."""
 
     def __init__(self, x=0, y=0):
+        """Initialize the 2D vector.
+
+        Args:
+            `x` (`float`): The x-coordinate of the vector.
+            `y` (`float`): The y-coordinate of the vector.
+        """
         self.x = x
         self.y = y
 
@@ -41,7 +47,24 @@ class Vector2:
         return Vector2(self.x * scalar, self.y * scalar)
 
     def dot(self, other):
+        """Dot product of two vectors.
+
+        The dot product of two vectors is the sum of the products of the
+        corresponding components.
+
+        Args:
+            `other` (`Vector2`): The other vector.
+        """
         return self.x * other.x + self.y * other.y
 
     def cross(self, other):
+        """Cross product of two vectors.
+
+        The cross product of two vectors is the determinant of the matrix
+        formed by the two vectors.
+
+        Args:
+            `other` (`Vector2`): The other vector.
+        """
+
         return self.x * other.y - self.y * other.x

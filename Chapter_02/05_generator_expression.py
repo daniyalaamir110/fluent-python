@@ -1,5 +1,7 @@
 """Generator Expression
 
+This module demonstrates the use of generator expressions in Python.
+
 An issue with list comprehension is that for larger lists, it consumes a lot of
 memory. This is because it creates the entire list in memory before returning
 it. Also can be time consuming because it has to iterate over the entire list

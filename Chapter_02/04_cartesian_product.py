@@ -1,3 +1,8 @@
+"""Cartesian Product
+
+This module demonstrates the use of list comprehension to create a cartesian product.
+"""
+
 from collections import namedtuple
 from pprint import pprint
 
@@ -5,9 +10,8 @@ from pprint import pprint
 def tshirt_example():
     """T-Shirt Example
 
-    Create a list of T-Shirts with different colors and sizes.
-    Using multiple for loops in a list comprehension will create
-    a cartesian product.
+    Create a list of T-Shirts with different colors and sizes. Using multiple for loops
+    in a list comprehension will create a cartesian product.
     """
 
     colors = ["red", "green", "blue"]

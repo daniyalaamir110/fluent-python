@@ -1,5 +1,24 @@
+"""Special Methods
+
+This module contains the application of special methods for the `SerialNumber` and `Series` classes.
+
+Especially, the `__format__` method is used to format the serial number as a three-digit number.
+"""
+
+
 class SerialNumber:
+    """A class to represent a serial number."""
+
     def __init__(self, value):
+        """Initialize the serial number.
+
+        The serial number is a three-digit number.
+
+        Args:
+            `value` (`int`): The value of the serial number.
+
+        Raises:
+            `ValueError`: If the value is not an integer."""
         if type(value) != int:
             raise ValueError("Value must be an integer")
         self._value = value
@@ -15,7 +34,16 @@ class SerialNumber:
 
 
 class Series:
+    """A class to represent a series of serial numbers."""
+
     def __init__(self, count):
+        """Initialize the series of serial numbers.
+
+        The series will contain `count` serial numbers.
+
+        Args:
+            `count` (`int`): The number of serial numbers in the series.
+        """
         self._count = count
         self._numbers = [SerialNumber(i) for i in range(1, count + 1)]
 
@@ -44,12 +72,8 @@ class Series:
         return bool(self._numbers)
 
 
-def main():
+if __name__ == "__main__":
     series = Series(5)
 
     print(series)
     # Output: ['001', '002', '003', '004', '005']
-
-
-if __name__ == "__main__":
-    main()

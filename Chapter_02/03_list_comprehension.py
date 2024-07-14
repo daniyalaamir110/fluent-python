@@ -1,5 +1,7 @@
 """List Comprehension
 
+This module demonstrates the use of list comprehension in Python.
+
 It is a technique to create lists in a concise way. Using the traditional
 approach, you would need to write a loop to create a list. With LC, we can
 do that in a single line, which looks more explicit, and readable.

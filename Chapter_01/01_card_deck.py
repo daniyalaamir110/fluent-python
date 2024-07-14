@@ -43,17 +43,50 @@ class FrenchDeck:
         return self._cards[position]
 
     def filter_by_rank(self, rank):
+        """Filter the cards by rank
+
+        Args:
+            rank (`str`): The rank of the cards to be filtered.
+
+        Returns:
+            `list`: The list of cards with the specified rank.
+        """
         index = self.ranks.index(rank)
         return self._cards[index::4]
 
     def filter_by_suit(self, suit):
+        """Filter the cards by suit
+
+        Args:
+            suit (`str`): The suit of the cards to be filtered.
+
+        Returns:
+            `list`: The list of cards with the specified suit.
+        """
         index = self.suits.index(suit)
         return self._cards[index::13]
 
     def sort_key(self, card):
+        """Sort key for the cards
+
+        The cards are sorted by suit and then by rank.
+
+        Args:
+            card (`Card`): The card to be sorted.
+
+        Returns:
+            `int`: The sort key for the card.
+        """
+
         suit_values = dict(spades=3, hearts=2, diamonds=1, clubs=0)
         rank_value = self.ranks.index(card.rank)
         return rank_value * len(suit_values) + suit_values[card.suit]
 
     def get_sorted(self):
+        """Get the sorted list of cards
+
+        Returns:
+            `list`: The sorted list of cards.
+        """
+
         return sorted(self._cards, key=self.sort_key)
