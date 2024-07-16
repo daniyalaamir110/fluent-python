@@ -1,0 +1,18 @@
+STUDENT REPORT
+
+Student ID:     3
+Student Name:   Charlie
+
+Result
+
+Maths           80
+English         85
+Physics         90
+Chemistry       82
+Art             88
+----------------------------------------
+Total           425 / 500
+Grade           85.00% (A+)
+
+----------------------------------------
+Report Generated at: 2024-07-17 00:48:45

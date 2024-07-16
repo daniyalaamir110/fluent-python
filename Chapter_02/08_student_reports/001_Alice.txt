@@ -1,0 +1,18 @@
+STUDENT REPORT
+
+Student ID:     1
+Student Name:   Alice
+
+Result
+
+Maths           88
+English         65
+Physics         91
+Chemistry       49
+Art             92
+----------------------------------------
+Total           385 / 500
+Grade           77.00% (A)
+
+----------------------------------------
+Report Generated at: 2024-07-17 00:48:45

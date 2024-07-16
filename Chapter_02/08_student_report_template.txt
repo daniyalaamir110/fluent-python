@@ -1,0 +1,18 @@
+STUDENT REPORT
+
+Student ID:     {student_id}
+Student Name:   {student_name}
+
+Result
+
+Maths           {maths}
+English         {english}
+Physics         {physics}
+Chemistry       {chemistry}
+Art             {art}
+----------------------------------------
+Total           {obtained_marks} / {total_marks}
+Grade           {percentage:.2f}% ({grade})
+
+----------------------------------------
+Report Generated at: {report_generation_time}

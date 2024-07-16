@@ -1,0 +1,18 @@
+STUDENT REPORT
+
+Student ID:     5
+Student Name:   Eve
+
+Result
+
+Maths           85
+English         91
+Physics         89
+Chemistry       98
+Art             92
+----------------------------------------
+Total           455 / 500
+Grade           91.00% (A+)
+
+----------------------------------------
+Report Generated at: 2024-07-17 00:48:45

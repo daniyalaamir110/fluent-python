@@ -1,0 +1,6 @@
+Student ID, Student Name, Maths, English, Physics, Chemistry, Art
+1, Alice, 88, 65, 91, 49, 92
+2, Bob, 78, 82, 80, 55, 85
+3, Charlie, 80, 85, 90, 82, 88
+4, David, 85, 78, 82, 75, 70
+5, Eve, 85, 91, 89, 98, 92

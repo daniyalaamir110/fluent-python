@@ -1,0 +1,18 @@
+STUDENT REPORT
+
+Student ID:     2
+Student Name:   Bob
+
+Result
+
+Maths           78
+English         82
+Physics         80
+Chemistry       55
+Art             85
+----------------------------------------
+Total           380 / 500
+Grade           76.00% (A)
+
+----------------------------------------
+Report Generated at: 2024-07-17 00:48:45
